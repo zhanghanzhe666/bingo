@@ -1,0 +1,9 @@
+/* 移除顶部背景遮挡 */
+.scroller>.top {
+  display: none !important;
+}
+
+/* 移除顶部边距 */
+.scroller>.scroller-positioner>.content {
+  padding-top: 0 !important;
+}
