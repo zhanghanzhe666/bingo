@@ -1,9 +1,0 @@
-.imagecreator {
-  border-radius: 15px;
-  border: 6px solid transparent;
-  transition: transform 0.3s;
-}
-
-.imagecreator:hover {
-  transform: scale(1.1);
-}
