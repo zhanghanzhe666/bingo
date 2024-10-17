@@ -1,4 +1,5 @@
 import { BingReturnType } from '@/lib/hooks/use-bing'
+import Script from 'next/script'
 
 const exampleMessages = [
   {
