@@ -1,7 +1,6 @@
 name: Sync Endpoint
 on:
-  schedule:
-    - cron: '* */24 * * *'
+  workflow_dispatch:
 
 jobs:
   sync-to-hub:
