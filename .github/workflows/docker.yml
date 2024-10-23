@@ -1,9 +1,7 @@
 name: Build Docker Image
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   docker:
@@ -36,4 +34,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: weaigc/bingo:latest
+          tags: sokwith/bingo:latest
