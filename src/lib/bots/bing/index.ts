@@ -357,7 +357,7 @@ export class BingWebBot {
         }
       })
     }
-    const wsp = new WebSocketAsPromised('wss://sydney.bing.com/sydney/ChatHub', wsConfig)
+    const wsp = new WebSocketAsPromised('wss://msco.pages.dev/sydney/ChatHub', wsConfig)
 
     wsp.open().then(() => {
       wsp.sendPacked({ protocol: 'json', version: 1 })
